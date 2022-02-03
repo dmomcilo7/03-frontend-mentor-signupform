@@ -1,0 +1,111 @@
+/*resets */
+
+body {
+  margin: 0;
+}
+
+body {
+  background-color: hsl(0, 100%, 74%);
+  height: 100vh;
+  color: white;
+  background-image: url("images/bg-intro-mobile.png");
+  font-family: "Poppins", sans-serif;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.about-container {
+  text-align: center;
+}
+
+.form-section .ad {
+  background-color: hsl(248, 32%, 49%);
+  text-align: center;
+  padding: 40px;
+  box-shadow: 0 5px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.ad span {
+  font-weight: bolder;
+}
+
+.form-section form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.form-section form input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  font-weight: bolder;
+  font-family: "Poppins", sans-serif;
+  border: 1px solid hsl(246, 25%, 77%);
+}
+
+.form-section button {
+  padding: 10px;
+  background-color: hsl(154, 59%, 51%);
+  border-radius: 10px;
+  box-shadow: 0 5px 2px rgba(0, 0, 0, 0.5);
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.form-section button:hover {
+  background-color: hsla(154, 59%, 70%);
+}
+
+.form-section .terms {
+  text-align: center;
+  color: hsl(246, 25%, 77%);
+}
+
+.terms a {
+  text-decoration: none;
+  color: hsl(0, 100%, 74%);
+}
+
+@media only screen and (min-width: 1440px) {
+  body {
+    background-image: url("images/bg-intro-desktop.png");
+  }
+
+  main {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+
+  main section {
+    flex: 1;
+  }
+
+  .about-container {
+    text-align: left;
+  }
+}
+
+/* main {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  border-radius: 10px;
+  padding: 10px;
+  background-color: hsl(248, 32%, 49%);
+  margin: 20px;
+  font-size: 20px;
+} */
